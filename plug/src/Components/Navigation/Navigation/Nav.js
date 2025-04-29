@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import logo from '../../../img/logo.jpeg';
+import logo from '../../../assets/img/logo.jpeg';
 import './Nav.css';
 
 const Navbar = () => {

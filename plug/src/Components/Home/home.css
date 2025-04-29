@@ -20,6 +20,105 @@
   .sub-heading {
     font-size: 2rem;
     color: #fff;
-    margin-top: 0
+    margin-top: 0;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 2.5rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
+  .abtHead {
+    font-size: 4rem;
+  }
+  
+  .about-txt {
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .abtHead {
+      font-size: 2.5rem;
+    }
+  
+    .about-txt {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .Niso {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  .Makza {
+    width: 150px; /* Adjust the width for the image */
+    height: 150px; /* Set equal height for circular shape */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure the image covers the container */
+    object-position: center; /* Position the image to keep the face centered */
+  }
+  
+  @media (max-width: 768px) {
+    .Makza {
+      width: 120px; /* Smaller size on smaller screens */
+      height: 120px; /* Maintain circular shape */
+    }
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Space between the items */
+    gap: 10px; /* Reduced space between the images */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
+  }
+  
+  .image-item {
+    text-align: center; /* Center content under the image */
+    flex-basis: 45%; /* Each image takes up about 45% of the container's width */
+  }
+  
+  .Niso, .Makza {
+    width: 150px; /* Adjust the width for both images */
+    height: 150px; /* Equal height for circular shape */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+  }
+  
+  .title {
+    font-size: 1.5rem; /* Title font size */
+    font-weight: bold;
+    margin-top: 10px; /* Space between the image and title */
+  }
+  
+  .name {
+    font-size: 1rem; /* Name font size */
+    color: gray; /* Name color */
+    margin-top: 5px; /* Space between title and name */
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      flex-direction: column; /* Stack images vertically on smaller screens */
+      align-items: center; /* Center the content */
+    }
+  
+    .image-item {
+      flex-basis: 100%; /* Full width for images on small screens */
+      margin-bottom: 10px; /* Space between stacked items */
+    }
   }
   
