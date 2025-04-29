@@ -1,0 +1,25 @@
+.Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../public/img/Background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .main-heading {
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sub-heading {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 0
+  }
+  
