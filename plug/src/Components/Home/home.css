@@ -80,8 +80,8 @@
   
   .image-container {
     display: flex;
-    justify-content: space-between; /* Space between the items */
-    gap: 10px; /* Reduced space between the images */
+    justify-content: space-between; 
+    gap: 10px; 
     margin-top: 20px;
     flex-wrap: wrap; /* Allows wrapping for small screens */
   }
