@@ -15,13 +15,13 @@ const Navbar = () => {
 
   const scrollToAbout = () => {
     if (location.pathname === '/') {
-      ScrollLink.scrollTo('abtBanner', {
+      ScrollLink.scrollTo('abtHead', {
         spy: true,
         smooth: true,
         duration: 500,
       });
     } else {
-      navigate('/', { state: { scrollTo: 'abtBanner' } });
+      navigate('/', { state: { scrollTo: 'abtHead' } });
     }
   };
 
