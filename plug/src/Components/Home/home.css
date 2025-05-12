@@ -121,9 +121,22 @@
       margin-bottom: 10px; /* Space between stacked items */
     }
   }
+
+  .image-container {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing between items */
+    align-items: center; /* Vertically centers items */
+}
+
+.image-item {
+    margin: 10px;
+    text-align: center;
+}
+
+
  /* ContactForm.css */
 .contact-container {
-  max-width: 400px;
+  max-width: 70000px;
   margin: 2rem auto;
   padding: 2rem;
   background-color: #fff;

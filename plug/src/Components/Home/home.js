@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Navbar from "../Navigation/Navigation/Nav";
 import Niso from '../../assets/img/Niso.jpeg'
 import Makza from '../../assets/img/Makza.jpeg'
+import Njabs from '../../assets/img/Njabs.jpeg'
+import Footer from '../Footer/footer';
 import "./home.css"
 
 const Home = () => {
@@ -60,26 +62,35 @@ const Home = () => {
                 </h1>
 
                 <div className="image-container">
-  <div className="image-item">
-    <img src={Niso} alt="Niso" className="Niso" />
-    <h2 className="title">Sboniso Mntungwa</h2>
-    <p className="name">Your Host</p>
-  </div>
+                    <div className="image-item">
+                        <img src={Niso} alt="Niso" className="Niso" />
+                        <h2 className="title">Sboniso Mntungwa</h2>
+                        <p className="name">Your Host</p>
+                    </div>
+                    <div className="image-item">
+                        <img src={Makza} alt="Makza" className="Makza" />
+                        <h2 className="title">Makabongwe 'Maks' Mbuli.</h2>
+                        <p className="name">Technical Director</p>
+                    </div>
 
-  <div className="image-item">
-    <img src={Makza} alt="Makza" className="Makza" />
-    <h2 className="title">Makabongwe 'Maks' Mbuli.</h2>
-    <p className="name">Technical Director</p>
-  </div>
-</div>
+                    <div className="image-item">
+                        <img src={Njabs} alt="Niso" className="Niso" />
+                        <h2 className="title">Nonjabulo Nkosi</h2>
+                        <p className="name">Your Host</p>
+                    </div>
+
+                
+                    </div>
 
 
 
 
             </div>
             <div className="Contact">
+            <h1 className="abtHead">
+                    Reach Out
+                </h1>
             <div className="contact-container">
-                <h2>Contact Us</h2>
                 <form onSubmit={handleSubmit} className="contact-form">
                     <input type="text" name="name" placeholder="Name" onChange={handleChange} />
                     <input type="email" name="email" placeholder="Email" onChange={handleChange} />
@@ -89,6 +100,7 @@ const Home = () => {
                 {status && <p>{status}</p>}
             </div>
             </div>
+            <Footer/>
            
         </div>
 

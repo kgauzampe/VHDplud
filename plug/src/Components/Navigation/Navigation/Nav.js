@@ -59,23 +59,7 @@ const Navbar = () => {
               </ScrollLink>
             </li>
           )}
-          {/* <li className="dropdown">
-            <span>Services</span>
-            <div className="dropdown-content">
-              <Link to="/service1" className="link">
-                Software QA Training
-              </Link>
-              <Link to="/service2" className="link">
-                IT Training
-              </Link>
-              <Link to="/service3" className="link">
-                IT Consultancy
-              </Link>
-              <Link to="/service4" className="link">
-                Software QA Consultancy
-              </Link>
-            </div>
-          </li> */}
+          
           <li>
             <Link to="/Contact" className="link">
               Contact
