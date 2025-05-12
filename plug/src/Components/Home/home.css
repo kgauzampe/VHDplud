@@ -121,4 +121,58 @@
       margin-bottom: 10px; /* Space between stacked items */
     }
   }
-  
+ /* ContactForm.css */
+.contact-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    max-width: 600px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-container p {
+  margin-top: 1rem;
+  text-align: center;
+  color: #28a745;
+}
