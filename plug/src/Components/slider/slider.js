@@ -12,7 +12,7 @@ import img7 from "../../assets/img/7.jpeg";
 import img8 from "../../assets/img/8.jpeg";
 
 
-const images = [img1, img2, img3];
+const images = [img8, img2, img3,img4, img5, img6,img7, img1,];
 
 export default function ImageSlider() {
   const [index, setIndex] = useState(0);

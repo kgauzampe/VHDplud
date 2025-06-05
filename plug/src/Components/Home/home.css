@@ -92,22 +92,22 @@
   }
   
   .Niso, .Makza {
-    width: 150px; /* Adjust the width for both images */
-    height: 150px; /* Equal height for circular shape */
-    border-radius: 50%; /* Makes the image circular */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
     object-fit: cover;
   }
   
   .title {
-    font-size: 1.5rem; /* Title font size */
+    font-size: 1.5rem; 
     font-weight: bold;
-    margin-top: 10px; /* Space between the image and title */
+    margin-top: 10px; 
   }
   
   .name {
-    font-size: 1rem; /* Name font size */
-    color: gray; /* Name color */
-    margin-top: 5px; /* Space between title and name */
+    font-size: 1rem; 
+    color: gray; 
+    margin-top: 5px; 
   }
   
   @media (max-width: 768px) {
