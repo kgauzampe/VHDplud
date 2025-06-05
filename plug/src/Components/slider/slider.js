@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import './slider.css'
 
 import img1 from "../../assets/img/1.jpeg";
 import img2 from "../../assets/img/2.jpeg";
