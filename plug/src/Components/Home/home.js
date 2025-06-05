@@ -43,12 +43,12 @@ const Home = () => {
                 <h1 className="main-heading">Vryheid Plug Podcast</h1>
                 </div>
                 <div>
-                <h3 className="sub-heading">Your Stories, your voice</h3>
+                <h4 className="sub-heading">Your Stories, your voice</h4>
                 </div>
                 
             </div>
             <div className="About">
-                <h2 className="abtHead">
+                <h2 >
                     About The Plug
                 </h2>
                 <h6 className="about-txt">
@@ -59,7 +59,7 @@ const Home = () => {
                 </h6>
             </div>
             <div className="Team">
-            <h2 className="abtHead">
+            <h2 >
                     Meet The Pluggers
                 </h2>
 
@@ -89,13 +89,13 @@ const Home = () => {
 
             </div>
                 <div className="p-4">
-                <h1 className="abtHead">
+                <h2>
                     Moments
-                </h1>
+                </h2>
                     <ImageSlider />
                 </div>
             <div className="Contact">
-            <h2 className="abtHead">
+            <h2 >
                     Reach Out
                 </h2>
             <div className="contact-container">
