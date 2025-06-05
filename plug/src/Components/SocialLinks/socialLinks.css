@@ -1,0 +1,68 @@
+/* Container styling */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+/* Icon base styles */
+.social-icon {
+  font-size: 32px;
+  transition: transform 0.2s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effects */
+.social-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Platform-specific colors */
+.facebook {
+  color: #1877f2;
+}
+
+.facebook:hover {
+  color: #145dbf;
+}
+
+.tiktok {
+  color: #000000;
+}
+
+.tiktok:hover {
+  color: #333333;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.youtube:hover {
+  color: #cc0000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .social-links {
+    gap: 20px;
+  }
+
+  .social-icon {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social-links {
+    gap: 48px;
+    margin-top: 48px;
+  }
+
+  .social-icon {
+    font-size: 36px;
+  }
+}
