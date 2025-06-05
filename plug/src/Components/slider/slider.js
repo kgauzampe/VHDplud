@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = [
- require('../../assets/img/1.jpeg'),
-  require('../../assets/img/2.jpeg'),
-  require('../../assets/img/3.jpeg'),
-];
+import img1 from "../../assets/img/1.jpeg";
+import img2 from "../../assets/img/2.jpeg";
+import img3 from "../../assets/img/3.jpeg";
+
+const images = [img1, img2, img3];
 
 export default function ImageSlider() {
   const [index, setIndex] = useState(0);
@@ -21,9 +21,9 @@ export default function ImageSlider() {
 
   return (
     <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         <motion.img
-          key={images[index]}
+          key={index}
           src={images[index]}
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
