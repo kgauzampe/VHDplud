@@ -11,7 +11,7 @@ const Footer = () => {
         <Link to="#about">About</Link>
         <Link to="/Contact">Contact</Link>
     </div>
-    <p className='foot'>&copy; 2025 VHD Plug Developed by BlvckKing</p>
+    <p className='foot'>&copy; 2025 VHD Plug Developed by Mpumelelo Tech Solutions</p>
   </div>
     </footer>
   );
