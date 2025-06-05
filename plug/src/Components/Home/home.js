@@ -4,6 +4,7 @@ import Niso from '../../assets/img/Niso.jpeg'
 import Makza from '../../assets/img/Makza.jpeg'
 import Njabs from '../../assets/img/Njabs.jpeg'
 import ImageSlider from '../slider/slider';
+import SocialLinks from '../SocialLinks/socialLinks';
 import Footer from '../Footer/footer';
 import "./home.css"
 
@@ -105,6 +106,9 @@ const Home = () => {
                     <button type="submit">Send</button>
                 </form>
                 {status && <p>{status}</p>}
+            </div>
+            <div>
+                <SocialLinks />
             </div>
             </div>
             <Footer/>
