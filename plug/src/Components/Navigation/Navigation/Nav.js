@@ -35,7 +35,7 @@ const Navbar = () => {
     }
   }, [location.hash]);
 
-  // Define a function to scroll to the top of the page
+
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
