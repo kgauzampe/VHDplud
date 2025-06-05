@@ -20,7 +20,9 @@
   pointer-events: none;
 }
 
-/* Navigation buttons */
+/* ----------- OPTIONAL UI ELEMENTS BELOW REMOVED ----------- */
+/* Navigation buttons - hidden since we're not using them */
+/*
 .slider-button {
   position: absolute;
   top: 50%;
@@ -46,8 +48,10 @@
 .slider-button.right {
   right: 16px;
 }
+*/
 
-/* Dots container */
+/* Dots container - hidden since we're not using them */
+/*
 .dots-container {
   position: absolute;
   bottom: 16px;
@@ -57,7 +61,6 @@
   gap: 12px;
 }
 
-/* Each dot */
 .dot {
   width: 16px;
   height: 16px;
@@ -75,6 +78,7 @@
 .dot.active {
   background-color: white;
 }
+*/
 
 /* Responsive styles */
 @media (min-width: 640px) {
@@ -92,6 +96,6 @@
 @media (max-width: 480px) {
   .slider-image {
     height: 180px;
-    object-fit: contain; /* so images scale nicely on very small devices */
+    object-fit: contain; /* So images scale nicely on very small devices */
   }
 }
