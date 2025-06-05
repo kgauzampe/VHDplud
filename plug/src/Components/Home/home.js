@@ -48,9 +48,9 @@ const Home = () => {
                 
             </div>
             <div className="About">
-                <h1 className="abtHead">
+                <h2 className="abtHead">
                     About The Plug
-                </h1>
+                </h2>
                 <h6 className="about-txt">
                     Welcome to Vryheid Plug Podcast, the voice of our vibrant community!
                     Our mission is to connect,inspire, and inform the people of Vryheid through
@@ -59,9 +59,9 @@ const Home = () => {
                 </h6>
             </div>
             <div className="Team">
-            <h1 className="abtHead">
+            <h2 className="abtHead">
                     Meet The Pluggers
-                </h1>
+                </h2>
 
                 <div className="image-container">
                     <div className="image-item">
@@ -95,9 +95,9 @@ const Home = () => {
                     <ImageSlider />
                 </div>
             <div className="Contact">
-            <h1 className="abtHead">
+            <h2 className="abtHead">
                     Reach Out
-                </h1>
+                </h2>
             <div className="contact-container">
                 <form onSubmit={handleSubmit} className="contact-form">
                     <input type="text" name="name" placeholder="Name" onChange={handleChange} />
