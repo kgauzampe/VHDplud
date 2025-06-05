@@ -88,6 +88,9 @@ const Home = () => {
 
             </div>
                 <div className="p-4">
+                <h1 className="abtHead">
+                    Moments
+                </h1>
                     <ImageSlider />
                 </div>
             <div className="Contact">
