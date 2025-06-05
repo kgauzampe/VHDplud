@@ -24,7 +24,7 @@ export default function SocialLinks() {
         <FaTiktok />
       </a>
       <a
-        href="https://www.youtube.com/channel/yourchannelid"
+        href="https://www.youtube.com/results?search_query=vryheid+plug+podcast"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="YouTube"
