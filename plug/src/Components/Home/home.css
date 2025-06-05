@@ -40,7 +40,7 @@
   }
   
   .about-txt {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 80%;
     text-align: center;
     margin: 0 auto;
@@ -53,7 +53,7 @@
     }
   
     .about-txt {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
   
