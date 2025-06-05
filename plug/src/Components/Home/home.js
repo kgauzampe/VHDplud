@@ -3,6 +3,7 @@ import Navbar from "../Navigation/Navigation/Nav";
 import Niso from '../../assets/img/Niso.jpeg'
 import Makza from '../../assets/img/Makza.jpeg'
 import Njabs from '../../assets/img/Njabs.jpeg'
+import ImageSlider from '../slider/slider';
 import Footer from '../Footer/footer';
 import "./home.css"
 
@@ -69,7 +70,7 @@ const Home = () => {
                     </div>
                     <div className="image-item">
                         <img src={Makza} alt="Makza" className="Makza" />
-                        <h2 className="title">Makabongwe 'Maks' Mbuli.</h2>
+                        <h2 className="title">Makabongwe 'Makz' Mbuli.</h2>
                         <p className="name">Technical Director</p>
                     </div>
 
@@ -86,6 +87,9 @@ const Home = () => {
 
 
             </div>
+                <div className="p-4">
+                    <ImageSlider />
+                </div>
             <div className="Contact">
             <h1 className="abtHead">
                     Reach Out
