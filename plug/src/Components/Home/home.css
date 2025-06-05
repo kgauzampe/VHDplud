@@ -124,8 +124,8 @@
 
   .image-container {
     display: flex;
-    justify-content: space-around; /* Adjusts spacing between items */
-    align-items: center; /* Vertically centers items */
+    justify-content: space-around; 
+    align-items: center; 
 }
 
 .image-item {
