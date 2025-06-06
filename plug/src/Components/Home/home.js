@@ -52,10 +52,10 @@ const Home = () => {
                     About The Plug
                 </h2>
                 <h6 className="about-txt">
-                    Welcome to Vryheid Plug Podcast, the voice of our vibrant community!
-                    Our mission is to connect,inspire, and inform the people of Vryheid through
-                    engaging podcasts and spontaneous street conversations. Join us as we share local news, hustles, businesses
-                    upcoming events, heartwarming stories and moticational insights that celebrate the soirit of our comunity
+                    Welcome to Vryheid Plug Podcast — the voice of our vibrant community! Our mission is to connect,
+                    inspire, and inform the people of Vryheid through engaging podcasts and spontaneous street
+                    conversations. Join us as we share local news, hustles, businesses, upcoming events, heartwarming
+                    stories, and motivational insights that celebrate the spirit of our community.
                 </h6>
             </div>
             <div className="Team">
